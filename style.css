@@ -1,0 +1,84 @@
+/* Styling */
+
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: rgb(243, 242, 241) ;
+    margin: 0;  
+    padding: 150px;  
+}  
+.resume-container { 
+    display: flex; 
+    width: 88%;  
+    margin: 0 auto;  
+    background: white ;
+    padding: 20px;  
+    border-radius: 10px;  
+    box-shadow: 0 0px 20px rgba(216, 67, 67, 0.836);   
+} 
+.container .left-side{
+position:relative;
+background: rgb(102, 10, 10);
+ padding: 40px;
+ font: rgb(12, 10, 10);
+ 
+}
+.container .right-side{
+     padding: 20px;
+     width: 65%;
+     border-radius: 10px;
+     border-color: aliceblue;
+     font: rgb(8, 7, 7);
+     margin-left: 5px;
+     
+    }
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 20px;
+}
+
+.profile-text{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgb(206, 209, 212);
+
+}
+h2 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color:rgb(3, 2, 2);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(218, 68, 93);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+p {
+   
+   text-align:justify; hyphens: auto;
+   color: white;
+}
+
+.toggle-section {  
+    display: none;  
+}
+button {
+    border-radius: 10px;
+    box-shadow: 0 0 15px  rgb(218, 68, 93);
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+}
+button:hover {
+    color: white;
+    background-color: rgb(156, 8, 8);
+}  
