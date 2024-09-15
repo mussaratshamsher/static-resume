@@ -1,38 +1,51 @@
-/* Styling */
-
-
-body {  
-    font-family: Arial, sans-serif;  
-    background-color: rgb(243, 242, 241) ;
-    margin: 0;  
-    padding: 150px;  
-    border-radius: 10px;  
-    box-shadow: 0 0px 20px rgba(216, 67, 67, 0.836);   
-}  
-.resume-container { 
-    display: flex; 
-    width: 88%;  
-    margin: 0 auto;  
-    background: white ;
-    padding: 20px;  
-    border-radius: 10px;  
-    box-shadow: 0 0px 20px rgba(216, 67, 67, 0.836);   
-} 
-.container .left-side{
-position:relative;
-background: rgb(102, 10, 10);
- padding: 40px;
- font: rgb(12, 10, 10);
- 
+*{
+    margin: 0;
+    padding: 0;
 }
-.container .right-side{
-     padding: 20px;
-     width: 65%;
-     border-radius: 10px;
-     border-color: aliceblue;
-     font: rgb(8, 7, 7);
-     margin-left: 5px;
+body{
+    box-sizing: border-box;
+    background: linear-gradient(rgb(243, 68, 24), rgb(31, 29, 31));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height:100vh; */
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+.container{
+    width: 850px;
+    height: 900px;
+    background-color: antiquewhite;
+    display: flex;
+    
+}
+.section_one {
+    height:900px;
+    width: 350px;
+    background-color: rgb(121, 17, 4);
+    padding: auto;
+}
+.section_two {
+    height:900px;
+    width: 500px;
+    background-color: rgb(216, 231, 216);
+}
+@media screen and (max-width: 700px){
+    .container{
+        height: 1520px;
+        width: 400px;
+        display: block;
     }
+    .section_one{
+        height: 760px;
+        width: 400px;
+    }
+    .section_two{
+        height: 760px;
+        width: 400px;
+    }
+}
 .profile-picture {
     width: 200px;
     height: 200px;
@@ -62,12 +75,17 @@ h2 {
     margin-bottom: 5%;
 }
 p {
-   
    text-align:justify; hyphens: auto;
-   color: white;
+   color: rgb(253, 247, 247);
+}
+li{
+    color: black;
 }
 
-.toggle-section {  
+#skills-section {  
+    display: none;  
+}
+#experience-section {  
     display: none;  
 }
 button {
