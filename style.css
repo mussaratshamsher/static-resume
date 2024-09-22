@@ -15,34 +15,37 @@ body{
 }
 .container{
     width: 850px;
-    height: 900px;
+    height: 1000px;
     background-color: antiquewhite;
     display: flex;
     
 }
 .section_one {
-    height:900px;
+    height:1000px;
     width: 350px;
     background-color: rgb(121, 17, 4);
-    padding: auto;
+    padding: 10px;
+   
 }
 .section_two {
-    height:900px;
+    height:1000px;
     width: 500px;
     background-color: rgb(216, 231, 216);
+    padding: 10px;
+    
 }
 @media screen and (max-width: 700px){
     .container{
-        height: 1520px;
+        height: 1750px;
         width: 400px;
         display: block;
     }
     .section_one{
-        height: 760px;
+        height: 780px;
         width: 400px;
     }
     .section_two{
-        height: 760px;
+        height: 970px;
         width: 400px;
     }
 }
@@ -78,8 +81,9 @@ p {
    text-align:justify; hyphens: auto;
    color: rgb(253, 247, 247);
 }
-li{
+li, ul{
     color: black;
+    padding: 5px;
 }
 
 #skills-section {  
